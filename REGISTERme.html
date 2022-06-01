@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGISTERme</title>
+
+    <link rel="stylesheet" href="REGISTER.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <ul>
+        <li><a href="ALT.html">HOME</a></li>
+        <li><a href="CONTACTme.html">CONTACT PAGE</a></li>
+        <li><a href="LOGIN.html">LOGIN PAGE</a></li>
+        <li><a href="CALCULATOR.html">CALCULATOR</a></li>
+      </ul>
+    </div>
+    <div class="form">
+      <div class="formcontainer">
+        <h1>REGISTER AN ACCOUNT</h1>
+        <label for="form">Enter your name</label><br />
+        <input type="text" name="Full Name" placeholder="Enter First Name" />
+        <input
+          type="text"
+          name="Full Name"
+          placeholder="Enter Last Name"
+        /><br /><br />
+
+        <label for="form">Phone number</label><br />
+        <input
+          type="tel"
+          name="phone"
+          pattern=">[0-9] {3}-[0-9] {2}- [0-9] {3}"
+        /><br /><br />
+
+        <label for="form">Gender</label><br />
+        <select id="Gender" name="Gender" placeholder="Gender">
+          <option value="Select Gender">Select Gender</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Prefer not to say">Prefer not to say</option></select
+        ><br /><br />
+
+        <label for="form"> Country</label><br />
+        <input
+          type="country"
+          name="Country"
+          placeholder="Enter your Country"
+        /><br /><br />
+
+        <label for="form">State/Province</label><br />
+        <input
+          type="state"
+          name="state"
+          placeholder="Enter your State/Province"
+        /><br /><br />
+
+        <label for="form">username</label><br />
+        <input
+          type="username"
+          name="username"
+          placeholder="Enter your username"
+        /><br /><br />
+
+        <label for="form">password</label><br />
+        <input type="password" name="password" /><br /><br />
+
+        <label for="form">Confirm password</label><br />
+        <input type="password" name="password" /><br /><br />
+
+        <button type="button">REGISTER</button>
+      </div>
+    </div>
+  </body>
+</html>

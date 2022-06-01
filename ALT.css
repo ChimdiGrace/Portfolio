@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    
+}
+
+.nav-bar{
+width:100%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: purple;
+    height: 60px;
+    
+
+   
+}
+.nav-bar .logo{
+
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-right: 0px;
+}
+ul{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+li{
+
+    list-style-type: none; 
+    padding: 1px;
+}
+li a{
+  display: inline-block;
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    border-radius: 3px;
+    padding: 10px 14px;
+}
+li a:hover:not(.active){
+    background-color: rgb(4, 4, 7);
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+.active{
+    background-color: white;
+    padding: 10px;
+    color: black;
+}
+.image{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+   margin-left: 40%;
+  
+}
+body{
+    background: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+}
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-top: 100px; 
+    line-height: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+P{
+    
+    text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}   
+
+.unn{
+font-size: 16px;
+font-weight: bold;
+}
+.hrc{
+    font-size: 16px;
+    font-weight: bold;
+    }
+    .ndl{
+        font-size: 16px;
+        font-weight: bold;
+        }
+  .fin{
+        font-size: 16px;
+        font-weight: bold;
+   }
+    .SHI{
+         font-size: 16px;
+         font-weight: bold;
+    }      
+    footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 20px;
+             align-items: center;
+            justify-content: center;
+             }
+    footer a { 
+             text-decoration: none;
+             color: purple;
+            font-size: 17px;
+            font-weight: 500;
+             }
+ .copyright {
+             text-align: center;
+             color: purple;
+             margin-top: 40px;
+            font-size: 14px;
+            font-weight: 400;
+              }
+                  /*mobile phone*/
+                  @media only screen and (max-width:600px) {
+                    .nav-bar{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;  
+                        padding-top: 10px;
+
+                    }
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        padding-top: 20px;
+                    }
+                    
+
+                    .nav-bar .logo{
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .content h1{
+                        margin-top: 20px;
+                        margin-left: 40px;
+                        font-size:15px ;
+                    }
+                    .content h2{
+                        margin-top: 20px;
+                        margin-left: 40px;
+                        font-size:15px ;
+                    }
+                    .content p{
+                        margin-top: 20px;
+                        margin-left: 40px;
+                        font-size:15px ;
+                    }
+                    .image{
+                        margin-top: -80px;
+                        width: 200px;
+                        height: 200px;
+                               }
+                            
+                    
+                }
+                    
