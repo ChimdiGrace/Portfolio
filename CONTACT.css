@@ -8,26 +8,27 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: rgb(238, 226, 226);
+  height: 60px;
 }
 
 ul{
-  list-style-type: none;
-  overflow: hidden;
+  float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 li{
- 
-  float: left;
   list-style-type: none;
   padding: 3px;
 }
 li a{
 display: block;
-text-align: center;
   text-decoration: none; 
   color: purple;
   font-weight: bold;
   font-size: 13px;
-  
+  border-radius: 3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
    padding: 14px 16px;  
 }
